@@ -1,4 +1,4 @@
-
+#include "pch.h"
 #include "..\Queue\Queue.h"
 
 TEST(TQueue, can_create_queue_with_positive_max_size)

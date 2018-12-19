@@ -1,5 +1,5 @@
-
-#include "..\Queue\Queue.h"
+#include "gtest.h"
+#include "..\..\VS17\Queue\Queue\Queue.h"
 
 TEST(TQueue, can_create_queue_with_positive_max_size)
 {
@@ -143,4 +143,5 @@ TEST(TQueue, who_is_last)
 	for (int i = 0; i < 3; i++)
 		q.PushLast(i);
 	EXPECT_EQ(2, q.WhoIsLast());
+	system("pause");
 }
